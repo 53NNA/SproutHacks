@@ -11,13 +11,13 @@
   }
   
   .settings-container {
-    background-color: #f4f3f1; /* Grey background for the container */
+    background-color: #f4f3f1; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 600px;
-    max-height: 80vh; /* Adjust the height to allow for scrolling */
-    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 80vh; 
+    overflow-y: auto; 
     display: flex;
     flex-direction: column;
   }
@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1; /* Allow the form to grow and take available space */
+    flex-grow: 1; 
   }
   
   .settings-field {
@@ -64,7 +64,7 @@
     background-color: #85A947;
     color: #fff;
     cursor: pointer;
-    margin-top: 20px; /* Add margin to separate the button from the form */
+    margin-top: 20px; 
   }
   
   .settings-button:hover {

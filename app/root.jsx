@@ -5,6 +5,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import { json } from "@remix-run/node";
 
 import "./tailwind.css";
 
@@ -42,3 +43,11 @@ export function Layout({ children }) {
 export default function App() {
   return <Outlet />;
 }
+
+export const loader = async () => {
+  return json({
+    ENV: {
+      API_KEY: process.env.API_KEY,
+    },
+  });
+};

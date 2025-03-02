@@ -1,0 +1,81 @@
+.calendar-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar-container {
+    background-color: #f4f3f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-title {
+    font-size: 24px;
+    color: #363636;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .calendar-hour {
+    display: flex;
+    align-items: center;
+  }
+  
+  .calendar-time {
+    width: 50px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .calendar-block {
+    flex-grow: 1;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .calendar-task {
+    background-color: #85A947;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .calendar-close-button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #85A947;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .calendar-close-button:hover {
+    background-color: #6F9647;
+  }
