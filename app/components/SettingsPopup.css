@@ -1,0 +1,78 @@
+.settings-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .settings-container {
+    background-color: #f4f3f1; /* Grey background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-height: 80vh; /* Adjust the height to allow for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settings-title {
+    font-size: 24px;
+    color: #363636;
+    margin-bottom: 20px;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; /* Allow the form to grow and take available space */
+  }
+  
+  .settings-field {
+    margin-bottom: 20px;
+  }
+  
+  .settings-label {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .settings-input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .settings-button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #85A947;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin to separate the button from the form */
+  }
+  
+  .settings-button:hover {
+    background-color: #6F9647;
+  }
+  
+  .settings-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
